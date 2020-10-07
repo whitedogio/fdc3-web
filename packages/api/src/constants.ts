@@ -1,0 +1,10 @@
+export const BROADCAST = "broadcast";
+export const ADD_CONTEXT_LISTENER = "addContextListener";
+export const REMOVE_CONTEXT_LISTENER = "removeContextListener";
+export const OPEN = "open";
+export const CONNECT = "connect";
+export const JOIN_CHANNEL = "joinChannel";
+export const GET_SYSTEM_CHANNELS = "getSystemChannels";
+export const RAISE_INTENT = "raiseIntent";
+export const ADD_INTENT_LISTENER = "addIntentListener";
+export const REMOVE_INTENT_LISTENER = "removeIntentListener";

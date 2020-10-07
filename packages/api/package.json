@@ -1,0 +1,17 @@
+{
+  "name": "@whitedog/fdc3-web-api",
+  "version": "0.0.2",
+  "description": "FDC3 Desktop Agent | Example Web Implementation | API",
+  "author": "Matt Jamieson <matt@whitedog.io>",
+  "homepage": "https://whitedog.io/fdc3",
+  "license": "Apache-2.0",
+  "source": "src/index.ts",
+  "main": "dist/index.js",
+  "umd:main": "dist/index.umd.js",
+  "module": "dist/index.modern.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "microbundle",
+    "start": "microbundle --watch"
+  }
+}

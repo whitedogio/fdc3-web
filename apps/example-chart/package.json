@@ -1,0 +1,15 @@
+{
+  "name": "@whitedog/fdc3-web-example-chart",
+  "version": "0.0.1",
+  "description": "FDC3 Desktop Agent | Example Web Implementation | Chart App",
+  "author": "Matt Jamieson <matt@whitedog.io>",
+  "homepage": "https://whitedog.io/fdc3",
+  "license": "Apache-2.0",
+  "private": true,
+  "dependencies": {
+    "@whitedog/fdc3-web-client": "file:../../packages/client"
+  },
+  "scripts": {
+    "start": "parcel serve --host chart.fdc3.localdev.xyz --port 8081 --hmr-hostname localhost src/index.html"
+  }
+}

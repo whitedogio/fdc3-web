@@ -1,0 +1,81 @@
+[
+    {
+        "appId": "chart@chart.fdc3.localdev.xyz",
+        "name": "Stock Chart",
+        "url": "http://chart.fdc3.localdev.xyz:8081/",
+        "manifest": "string",
+        "manifestType": "string",
+        "version": "string",
+        "title": "string",
+        "tooltip": "string",
+        "description": "string",
+        "images": [
+            {
+                "url": "string"
+            }
+        ],
+        "contactEmail": "string",
+        "supportEmail": "string",
+        "publisher": "string",
+        "icons": [
+            {
+                "icon": "string"
+            }
+        ],
+        "customConfig": [
+            {
+                "name": "string",
+                "value": "string"
+            }
+        ],
+        "intents": [
+            {
+                "name": "ShowChart",
+                "displayName": "Show Chart",
+                "contexts": [
+                    "fdc3.instrument"
+                ],
+                "customConfig": {}
+            }
+        ]
+    },
+    {
+        "appId": "tickers@tickers.fdc3.localdev.xyz",
+        "name": "Tickers",
+        "url": "http://tickers.fdc3.localdev.xyz:8082/",
+        "manifestType": "string",
+        "version": "string",
+        "title": "string",
+        "tooltip": "string",
+        "description": "string",
+        "images": [
+            {
+                "url": "string"
+            }
+        ],
+        "contactEmail": "string",
+        "supportEmail": "string",
+        "publisher": "string",
+        "icons": [
+            {
+                "icon": "string"
+            }
+        ],
+        "customConfig": [
+            {
+                "name": "string",
+                "value": "string"
+            }
+        ],
+        "intents": [
+            {
+                "name": "string",
+                "displayName": "string",
+                "contexts": [
+                    "string"
+                ],
+                "customConfig": {}
+            }
+        ]
+    }
+]

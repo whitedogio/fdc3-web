@@ -1,0 +1,19 @@
+{
+  "name": "@whitedog/fdc3-web-launcher",
+  "version": "0.0.1",
+  "description": "FDC3 Desktop Agent | Example Web Implementation | Launcher App",
+  "author": "Matt Jamieson <matt@whitedog.io>",
+  "homepage": "https://whitedog.io/fdc3",
+  "license": "Apache-2.0",
+  "private": true,
+  "dependencies": {
+    "@blueprintjs/core": "^3.30.0",
+    "@whitedog/fdc3-web-agent": "file:../../packages/agent",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0"
+  },
+  "scripts": {
+    "start": "parcel serve --host launcher.fdc3.localdev.xyz --port 8080 --hmr-hostname localhost src/index.html"
+  }
+}

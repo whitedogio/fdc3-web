@@ -1,0 +1,35 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "@finos/fdc3-types": "file://./lib/finos-fdc3-1.1.0-alpha.1.tgz",
+    "@types/cuid": "^1.3.1",
+    "@types/jest": "^26.0.5",
+    "@types/react": "^16.9.43",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-router-dom": "^5.1.5",
+    "cuid": "^2.1.8",
+    "jest": "^26.1.0",
+    "lerna": "^3.22.1",
+    "microbundle": "^0.12.3",
+    "parcel-bundler": "^1.12.4",
+    "quicktype": "^15.0.249",
+    "ts-jest": "^26.1.4",
+    "tsdx": "^0.13.2",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "@whitedog/fdc3-web-agent": "file:packages/agent",
+    "@whitedog/fdc3-web-api": "file:packages/api",
+    "@whitedog/fdc3-web-client": "file:packages/client",
+    "@whitedog/fdc3-web-example-chart": "file:apps/example-chart",
+    "@whitedog/fdc3-web-example-tickers": "file:apps/example-tickers",
+    "@whitedog/fdc3-web-launcher": "file:apps/launcher"
+  },
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "build": "lerna run build",
+    "test": "lerna run test",
+    "start": "lerna run --parallel start"
+  }
+}
