@@ -1,4 +1,4 @@
-import { Channel, Context, ContextHandler, DisplayMetadata, Listener } from "@finos/fdc3-types";
+import { Channel, Context, ContextHandler, DisplayMetadata, Listener } from "@finos/fdc3";
 import { ADD_CONTEXT_LISTENER, BROADCAST, Payload, REMOVE_CONTEXT_LISTENER } from "@whitedog/fdc3-web-api";
 import cuid from "cuid";
 

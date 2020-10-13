@@ -1,4 +1,4 @@
-import { Channel, Context } from "@finos/fdc3-types";
+import { Channel, Context } from "@finos/fdc3";
 import { ADD_CONTEXT_LISTENER, BROADCAST, CONNECT, JOIN_CHANNEL, Payload, REMOVE_CONTEXT_LISTENER } from "@whitedog/fdc3-web-api";
 import { WebDesktopAgentServer } from "./WebDesktopAgentServer";
 

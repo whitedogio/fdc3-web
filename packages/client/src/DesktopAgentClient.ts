@@ -1,4 +1,4 @@
-import { Channel, Context, DesktopAgent } from "@finos/fdc3-types";
+import { Channel, Context, DesktopAgent } from "@finos/fdc3";
 
 export interface DesktopAgentClient extends DesktopAgent {
     initialize(): Promise<void>;

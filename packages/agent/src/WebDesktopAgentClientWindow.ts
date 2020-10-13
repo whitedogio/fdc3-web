@@ -1,4 +1,4 @@
-import { Listener } from "@finos/fdc3-types";
+import { Listener } from "@finos/fdc3";
 import { Payload } from "@whitedog/fdc3-web-api";
 
 export class WebDesktopAgentClientWindow {
