@@ -1,4 +1,4 @@
-import { AppIntent, Channel, Context, ContextHandler, IntentResolution, Listener } from "@finos/fdc3-types";
+import { AppIntent, Channel, Context, ContextHandler, IntentResolution, Listener } from "@finos/fdc3";
 import { ADD_CONTEXT_LISTENER, ADD_INTENT_LISTENER, BROADCAST, CONNECT, GET_SYSTEM_CHANNELS, JOIN_CHANNEL, OPEN, Payload, RAISE_INTENT, REMOVE_INTENT_LISTENER } from "@whitedog/fdc3-web-api";
 import cuid from "cuid";
 import { DesktopAgentClient } from "./DesktopAgentClient";

@@ -1,4 +1,4 @@
-import { Channel, Context } from "@finos/fdc3-types"
+import { Channel, Context } from "@finos/fdc3"
 
 export interface Payload {
     instanceId: string;

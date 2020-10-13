@@ -1,4 +1,4 @@
-import { Context } from "@finos/fdc3-types";
+import { Context } from "@finos/fdc3";
 import cuid from "cuid";
 import { WebDesktopAgentChannel } from "./WebDesktopAgentChannel";
 

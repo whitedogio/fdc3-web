@@ -1,4 +1,4 @@
-import { Channel, Context, ContextHandler, DisplayMetadata, Listener } from "@finos/fdc3-types";
+import { Channel, Context, ContextHandler, DisplayMetadata, Listener } from "@finos/fdc3";
 
 type ContextType = string;
 

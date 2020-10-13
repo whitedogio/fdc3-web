@@ -1,4 +1,4 @@
-import { Channel, Context, ContextHandler, Listener } from "@finos/fdc3-types";
+import { Channel, Context, ContextHandler, Listener } from "@finos/fdc3";
 import { ADD_CONTEXT_LISTENER, ADD_INTENT_LISTENER, BROADCAST, CONNECT, GET_SYSTEM_CHANNELS, JOIN_CHANNEL, Payload, RAISE_INTENT, REMOVE_CONTEXT_LISTENER, REMOVE_INTENT_LISTENER } from "@whitedog/fdc3-web-api";
 import cuid from "cuid";
 import { DesktopAgentServer } from "./DesktopAgentServer";

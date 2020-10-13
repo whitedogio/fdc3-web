@@ -1,4 +1,4 @@
-import "@finos/fdc3-types";
+import "@finos/fdc3";
 import { WebDesktopAgentClient } from "./WebDesktopAgentClient";
 import { DesktopAgentClient } from "./DesktopAgentClient"
 
